@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ratnadip.yogafitness.About"
+    android:background="@drawable/yogaa"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/txtAbout"
+        android:textSize="20sp"
+        android:text="Anyone who practices can obtain success in yoga but not one who is lazy. Constant practice alone is the secret of success.
+"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        />
+
+
+   <TextView
+       android:layout_width="100dp"
+       android:layout_height="wrap_content"
+       android:layout_marginRight="20dp"
+       android:layout_marginLeft="20dp"
+       android:text="Contact:"
+       android:textSize="15dp"
+       android:layout_marginTop="450dp"
+       android:textColor="#000000"
+       android:textStyle="bold"
+              />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Ratnadip Shinde"
+        android:textSize="15dp"
+        android:layout_marginTop="480dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="shinderatnadip252@gmail.com"
+        android:textSize="15dp"
+        android:layout_marginTop="510dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+
+
+</RelativeLayout>
